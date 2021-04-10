@@ -1,4 +1,4 @@
-def send_messages(messages):
+def send_messages(messages, sent_messages):
     """
     Print every message
     Move each message to a new list called sent_messages
@@ -17,4 +17,4 @@ text_messages = [
     ]
 sent_messages = []
 
-send_messages(text_messages)
+send_messages(text_messages, sent_messages)
